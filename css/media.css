@@ -1,0 +1,125 @@
+@media (max-width: 1060px){
+    .uploader{
+        justify-content: center;
+    }
+    .uploader label{
+        width: 80%;
+    }
+    .about__wrapper{
+        padding-left: 40px;
+    }
+    .team__link__main{
+        width: 31%;
+    }
+    .contact__col {
+        width: calc(50% - 15px);
+    }
+}
+
+@media (max-width: 860px){
+    .uploader label{
+        padding: 1.2rem 1rem;
+    }
+    .uploader #start i.fa{
+        font-size: 30px;
+    }
+    .uploader div{
+        font-size: 14px;
+    }
+    .uploader .btn{
+        font-size: 12px;
+    }
+    .uploader label{
+        width: 90%;
+    }
+    .section--detection{
+        margin-top: 40px;
+    }
+    .section {
+        margin-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .services__row{
+        justify-content: space-around;
+    }
+    .services__item{
+        width: calc(50% - 15px);
+        margin-bottom: 20px;
+    }
+    .services__item-img img {
+        height: 70px;
+        width: auto;
+    }
+    .about__wrapper{
+        padding-left: 0;
+    }
+    .about__row{
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .about__col{
+        width: 90%;  
+    }
+    .img--bg{
+        margin-top: 20px;
+    }
+    .contact__wrapper{
+        justify-content: center;
+        
+    }
+    .contact__date{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .contact__date-row{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .contact__col{
+        width: calc(100% - 15px)
+    }
+    .footer__wrapper{
+        justify-content: center;
+
+    }
+    .footer__item--max{
+        width: 90%;
+    }
+
+    .footer__item--min{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .team__link__main {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px){
+    .dedection__col{
+        width: 90%;
+    }
+    .uploader label{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .detection__row{
+        justify-content: center;
+    }
+    .services__item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about__col {
+        width: 100%;
+    }
+    .form-input--50 {
+        width: 100%;
+    }
+    .send-btn{
+        width: 100%;
+    }
+    .team__link__main{
+        width: 100%;
+    }
+}
