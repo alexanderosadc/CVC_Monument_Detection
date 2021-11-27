@@ -16,4 +16,13 @@ $(document).ready(function () {
         }, 1500);
     });
 
+
+    const menuBurger = $('.btn-burger');
+    const menuList = $('.nav-bar__sub-ul');
+
+    menuBurger.click(function(e) {
+        menuBurger.toggleClass('active-burger');
+        menuList.toggleClass('list--block');
+    })
+
 });
