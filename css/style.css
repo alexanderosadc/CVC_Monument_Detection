@@ -155,10 +155,6 @@ body{
 } 
 
 .nav-bar__sub-ul{
-    display: none;
-}
-
-.list--block{
     display: flex;
 }
 
@@ -203,8 +199,13 @@ body{
 .headre__title {
     font-family: "Roboto",sans-serif;
     font-size: 3rem;
-    color: #000;
+    color: rgba(0, 0, 0, 0.6);
     margin-bottom: 60px;
+
+    font-style: italic;
+}
+.headre__title span{
+    color:#1c7dec;
 }
 
 .head__btn{
@@ -487,8 +488,20 @@ body{
 
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    min-height: 155px;
 
 }
+.link-src{
+    color:#1c7dec;
+    font-size: inherit;
+
+    transition: all .2s linear;
+}
+.link-src:hover{
+    color:#4e80ed;
+    text-decoration: underline;
+}
+
 
 .tech-icon i{
     margin: 15px 5px 0 5px;

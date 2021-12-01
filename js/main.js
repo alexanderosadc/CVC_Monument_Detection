@@ -17,12 +17,4 @@ $(document).ready(function () {
     });
 
 
-    const menuBurger = $('.btn-burger');
-    const menuList = $('.nav-bar__sub-ul');
-
-    menuBurger.click(function(e) {
-        menuBurger.toggleClass('active-burger');
-        menuList.toggleClass('list--block');
-    })
-
 });
